@@ -16,3 +16,120 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.timer-box {
+  display: block;
+  margin: 36px 156px;
+}
+
+.timer-box input {
+  width: 272px;
+  height: 40px;
+  border: 2px solid #2e2f42;
+}
+
+.timer-box input:hover {
+border-color: 2px solid #808080;
+}
+
+.timer-box input:active {
+border-color: #4E75FF;
+}
+
+.timer-box button {
+border-radius: 8px;
+border: none;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+}
+
+.timer-box button {
+  color: aliceblue;
+  background: #4e75ff;
+}
+
+.timer-box button:hover {
+  color: aliceblue;
+  background: #6C8CFF;
+}
+
+.timer-box button:disabled {
+background: #cfcfcf;
+}
+.timer {
+  padding-top: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label {
+font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+}
+
+.currentDate {
+  border-radius: 100%;
+    stroke-width: 1px;
+    stroke: #4e75ff;
+}
+
+.snackbar-box {
+  display: block;
+  margin: 36px 156px;
+}
+
+.snackbar-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 360px;
+}
+
+.snackbar-delay {
+  display: flex;
+  flex-direction: column;
+}
+
+.snackbar-delay input {
+  height: 40px;
+}
+
+.fieldset {
+  height:64px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+}
+
+.snackbar-box button {
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background: #4e75ff;
+    color: aliceblue;
+    border: none;
+}
+
+.snackbar-box button:hover {
+  background: #6c8cff;
+}
